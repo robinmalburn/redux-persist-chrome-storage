@@ -16,7 +16,7 @@ The main use case for this adaptor is when writing Chrome extensions and making 
 
 import { createStore } from 'redux'
 import { persistStore, persistReducer } from 'redux-persist'
-import createChromeStorage from '../root/to/redux-persist-chrome-storage/src'
+import createChromeStorage from 'redux-persist-chrome-storage'
 import reducer from './reducers'
 
 // Create a ChromeStorage instance using the chrome runtime and the Sync StorageArea.
@@ -42,7 +42,7 @@ export default () => {
 ```javascript
 import { createStore } from 'redux'
 import { persistStore, persistReducer } from 'redux-persist'
-import ChromeStorage from '../root/to/redux-persist-chrome-storage/src/storage/ChromeStorage'
+import ChromeStorage from 'redux-persist-chrome-storage/storage/ChromeStorage'
 import reducer from './reducers'
 
 // Create a ChromeStorage instance using the chrome runtime and the Sync StorageArea.

@@ -1,11 +1,15 @@
 {
   "name": "redux-persist-chrome-storage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "redux-persist storage adaptor for Chrome extensions storage API.",
   "repository": {
     "type": "git",
     "url": "https://github.com/robinmalburn/redux-persist-chrome-storage.git"
   },
+  "bugs": {
+    "url": "https://github.com/robinmalburn/redux-persist-chrome-storage/issues"
+  },
+  "homepage": "https://github.com/robinmalburn/redux-persist-chrome-storage#readme",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
