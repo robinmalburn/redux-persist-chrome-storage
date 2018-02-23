@@ -1,0 +1,38 @@
+{
+    "presets": [
+        ["env", {
+            "useBuiltIns": true,
+            "modules":false,
+            "target": {
+                "browsers": ["chrome last 2 version"]
+            }
+        }]
+    ],
+    "env": {
+        "test":{
+            "presets": [
+                ["env", {
+                  "targets": {
+                    "node": "current"
+                  }
+                }]
+            ]
+        },
+        "commonjs":{
+            "plugins": ["transform-es2015-modules-commonjs"],
+            "presets": [
+                ["env", {
+                    "modules":"commonjs"
+                }]
+            ]
+        },
+        "umd":{
+            "plugins": ["transform-es2015-modules-umd"],
+            "presets": [
+                ["env", {
+                    "modules":"umd"
+                }]
+            ]
+        }
+    }
+}
