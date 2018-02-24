@@ -6,11 +6,11 @@ The main use case for this adaptor is when writing Chrome extensions and making 
 
 # Installation
 
-`npm install redux-persist-chrome-storage`
+npm: `npm install redux-persist-chrome-storage`
+
+yarn: `yarn add redux-persist-chrome-storage`
 
 # Usage
-
-## createChromeStorage Helper (Recommended)
 
 ```javascript
 
@@ -35,29 +35,4 @@ export default () => {
   return { store, persistor };
 }
 
-```
-
-## Direct Instantiation
-
-```javascript
-import { createStore } from 'redux'
-import { persistStore, persistReducer } from 'redux-persist'
-import ChromeStorage from 'redux-persist-chrome-storage/storage/ChromeStorage'
-import reducer from './reducers'
-
-// Create a ChromeStorage instance using the chrome runtime and the Sync StorageArea.
-const storage = new ChromeStorage(window.chrome.storage.sync, window.chrome.runtime);
-
-const config = {
-  key: 'root',
-  storage,
-};
-
-const persistedReducer = persistReducer(config, reducer);
-
-export default () => {
-  let store = createStore(persistedReducer)
-  let persistor = persistStore(store)
-  return { store, persistor };
-}
 ```
