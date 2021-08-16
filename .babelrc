@@ -1,17 +1,17 @@
 {
     "presets": [
-        ["env", {
-            "useBuiltIns": true,
+        ["@babel/preset-env", {
+            "useBuiltIns": false,
             "modules":false,
-            "target": {
-                "browsers": ["chrome last 2 version"]
+            "targets": {
+                "browsers": ["last 2 chrome versions"]
             }
         }]
     ],
     "env": {
         "test":{
             "presets": [
-                ["env", {
+                ["@babel/preset-env", {
                   "targets": {
                     "node": "current"
                   }
@@ -19,17 +19,17 @@
             ]
         },
         "commonjs":{
-            "plugins": ["transform-es2015-modules-commonjs"],
+            "plugins": ["@babel/plugin-transform-modules-commonjs"],
             "presets": [
-                ["env", {
+                ["@babel/preset-env", {
                     "modules":"commonjs"
                 }]
             ]
         },
         "umd":{
-            "plugins": ["transform-es2015-modules-umd"],
+            "plugins": ["@babel/plugin-transform-modules-umd"],
             "presets": [
-                ["env", {
+                ["@babel/preset-env", {
                     "modules":"umd"
                 }]
             ]

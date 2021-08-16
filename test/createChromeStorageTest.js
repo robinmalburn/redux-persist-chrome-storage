@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2018 Robin Malburn
+ * Copyright (c) 2018 - 2021 Robin Malburn
  *
  * Released under the MIT license.
  * See the file LICENSE for copying permission.
@@ -11,7 +11,7 @@
 
 import chai from 'chai';
 import chrome from 'sinon-chrome/extensions';
-import createChromeStorage from '../src/';
+import createChromeStorage from '../src';
 
 describe('createChromeStorage', function () {
   beforeEach(function () {

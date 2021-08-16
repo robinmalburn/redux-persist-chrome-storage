@@ -1,11 +1,10 @@
 /**
- * Copyright (c) 2018 Robin Malburn
+ * Copyright (c) 2018 - 2021 Robin Malburn
  *
  * Released under the MIT license.
  * See the file LICENSE for copying permission.
  */
 
-/* global describe, beforeEach, afterEach, it */
 /* global describe, beforeEach, afterEach, it */
 /* eslint func-names: "off" */
 /* eslint prefer-arrow-callback: "off" */
