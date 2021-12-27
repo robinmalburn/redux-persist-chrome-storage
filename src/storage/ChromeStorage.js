@@ -37,7 +37,7 @@ export default class ChromeStorage {
    * @return {boolean}
    */
   hasError() {
-    return this.getError() !== undefined;
+    return !!this.getError();
   }
 
   /**
