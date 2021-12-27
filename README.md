@@ -1,5 +1,7 @@
 # Redux Persist Chrome Storage
 
+![Tests](https://github.com/robinmalburn/redux-persist-chrome-storage/actions/workflows/tests.yml/badge.svg)
+
 Storage adaptor for using [Google Chrome's Storage API](https://developer.chrome.com/apps/storage) with [redux-persist](https://github.com/rt2zz/redux-persist).
 
 The main use case for this adaptor is when writing Chrome extensions and making use of either the Sync, Local or Managed StorageArea drivers to persist your redux state.
