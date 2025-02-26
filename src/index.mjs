@@ -5,7 +5,7 @@
  * See the file LICENSE for copying permission.
  */
 
-import ChromeStorage from './storage/ChromeStorage';
+import ChromeStorage from "./storage/ChromeStorage.mjs";
 
 /**
  * Create a ChromeStorage instance from the given chrome instance
