@@ -46,7 +46,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-import": "^2.24.0",
     "mocha": "^9.0.3",
-    "rimraf": "^3.0.2",
+    "rimraf": "^6.0.1",
     "sinon-chrome": "^3.0.1"
   },
   "peerDependencies": {
