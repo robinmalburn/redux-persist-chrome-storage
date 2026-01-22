@@ -21,7 +21,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "npm run build:es && npm run build:cjs && npm run build:umd",
+    "build": "pnpm run build:es && pnpm run build:cjs && pnpm run build:umd",
     "build:es": "babel src --out-dir es",
     "build:cjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
     "build:umd": "cross-env BABEL_ENV=umd babel src --out-dir dist",
