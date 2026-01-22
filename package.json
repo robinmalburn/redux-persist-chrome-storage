@@ -1,6 +1,6 @@
 {
   "name": "redux-persist-chrome-storage",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "redux-persist storage adaptor for Chrome extensions storage API.",
   "repository": {
     "type": "git",
@@ -32,18 +32,18 @@
   "author": "Robin Malburn <robin.malburn@googlemail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.28.3",
-    "@babel/core": "^7.28.5",
-    "@babel/eslint-parser": "^7.28.5",
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.28.6",
+    "@babel/eslint-parser": "^7.28.6",
     "@babel/eslint-plugin": "^7.27.1",
-    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.28.6",
     "@babel/plugin-transform-modules-umd": "^7.27.1",
-    "@babel/preset-env": "^7.28.5",
-    "@babel/register": "^7.28.3",
-    "chai": "^6.2.1",
+    "@babel/preset-env": "^7.28.6",
+    "@babel/register": "^7.28.6",
+    "chai": "^6.2.2",
     "chai-as-promised": "^8.0.2",
     "cross-env": "^10.1.0",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-plugin-import": "^2.32.0",
     "mocha": "^11.7.5",
     "rimraf": "^6.1.2",
@@ -51,5 +51,6 @@
   },
   "peerDependencies": {
     "redux-persist": ">=5.0"
-  }
+  },
+  "packageManager": "pnpm@10.28.1+sha512.7d7dbbca9e99447b7c3bf7a73286afaaf6be99251eb9498baefa7d406892f67b879adb3a1d7e687fc4ccc1a388c7175fbaae567a26ab44d1067b54fcb0d6a316"
 }

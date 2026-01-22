@@ -5,15 +5,24 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: ["22", "20"]
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Node JS  ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+      - name: Checkout code
+        uses: actions/checkout@v6.0.2
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4.2.0
+
+      - name: Set up Node JS
+        uses: actions/setup-node@v6.2.0
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version-file: ".nvmrc"
+          cache: pnpm
+
       - name: Install dependencies
-        run: npm ci
-      - run: npm test
+        run: pnpm install --frozen-lockfile
+
+      - name: Run linting
+        run: pnpm run lint
+
+      - name: Run unit tests
+        run: pnpm run test
