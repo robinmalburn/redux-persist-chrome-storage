@@ -1,6 +1,6 @@
 {
   "name": "redux-persist-chrome-storage",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "redux-persist storage adaptor for Chrome extensions storage API.",
   "repository": {
     "type": "git",
