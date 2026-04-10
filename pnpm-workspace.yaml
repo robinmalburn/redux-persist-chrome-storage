@@ -1,5 +1,5 @@
 
-minimumReleaseAge: 1
+minimumReleaseAge: 1440
 
 overrides:
   diff@>=6.0.0 <8.0.3: ">=8.0.3"
