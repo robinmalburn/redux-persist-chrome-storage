@@ -28,7 +28,7 @@ importers:
         version: 8.0.1(@babel/core@8.0.1)(eslint@10.9.1(supports-color@8.1.1))
       '@babel/eslint-plugin':
         specifier: ^8.0.1
-        version: 8.0.1(@babel/core@8.0.1)(@babel/eslint-parser@8.0.1(@babel/core@8.0.1)(eslint@10.9.1(supports-color@8.1.1)))(eslint@10.9.1(supports-color@8.1.1))
+        version: 8.0.6(@babel/core@8.0.1)(@babel/eslint-parser@8.0.1(@babel/core@8.0.1)(eslint@10.9.1(supports-color@8.1.1)))(eslint@10.9.1(supports-color@8.1.1))
       '@babel/plugin-transform-modules-commonjs':
         specifier: ^8.0.1
         version: 8.0.1(@babel/core@8.0.1)
@@ -94,12 +94,12 @@ packages:
       '@babel/core': ^8.0.0
       eslint: ^9.0.0 || ^10.0.0
 
-  '@babel/eslint-plugin@8.0.1':
-    resolution: {integrity: sha512-nHigH34PJCSbkPeK4PEzfwfy6O8VWfeucP2ZP8nwf0QcKZBxcX+uD6Zp8uMxrvYvWXYmlhYwU+Ix5N5TMjq3qQ==}
+  '@babel/eslint-plugin@8.0.6':
+    resolution: {integrity: sha512-KvFOhhufmQmKYDVe5qv6CDFo4n8jHjFMIKp1+mOnKqSSMMiEO+XZOvcWEbss46MbCljAY8OWV1xIpD0Cfy3zng==}
     engines: {node: ^22.18.0 || >=24.11.0}
     peerDependencies:
       '@babel/core': ^8.0.0
-      '@babel/eslint-parser': ^8.0.1
+      '@babel/eslint-parser': ^8.0.0
       eslint: ^9.0.0 || ^10.0.0
 
   '@babel/generator@8.0.0':
@@ -1299,7 +1299,7 @@ snapshots:
       eslint-visitor-keys: 5.0.1
       semver: 7.8.5
 
-  '@babel/eslint-plugin@8.0.1(@babel/core@8.0.1)(@babel/eslint-parser@8.0.1(@babel/core@8.0.1)(eslint@10.9.1(supports-color@8.1.1)))(eslint@10.9.1(supports-color@8.1.1))':
+  '@babel/eslint-plugin@8.0.6(@babel/core@8.0.1)(@babel/eslint-parser@8.0.1(@babel/core@8.0.1)(eslint@10.9.1(supports-color@8.1.1)))(eslint@10.9.1(supports-color@8.1.1))':
     dependencies:
       '@babel/core': 8.0.1
       '@babel/eslint-parser': 8.0.1(@babel/core@8.0.1)(eslint@10.9.1(supports-color@8.1.1))
