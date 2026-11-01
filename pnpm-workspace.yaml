@@ -1,5 +1,7 @@
 minimumReleaseAge: 1440
 overrides:
   diff@>=6.0.0 <8.0.3: ^8.0.3
+  glob@>=9.0.0 <=14.0.1: ^14.0.2
+  minimatch@<11.0.1: ^11.0.1
   serialize-javascript@<=7.0.2: ^7.0.3
   serialize-javascript@>=5.0.0 <7.0.5: ^7.0.5
